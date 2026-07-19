@@ -34,10 +34,10 @@
   "domain_status": "registration blocked: payment method or balance unavailable",
   "domain_expiration": "",
   "domain_auto_renew": "",
-  "github_repository": "",
-  "vercel_project": "",
-  "live_site_status": "local build complete; deployment pending",
-  "missing_items": "Fund Spaceship account; register approved domain; create GitHub repository; deploy and attach apex/www; save DNS; finalize GMB asset pack; mirror assets to Drive; confirm GBP owner account, address policy, hours, categories, and profile URL",
-  "notes": "Static preflight and responsive browser QA pass. Approved domain purchase returned HTTP 422 before an async operation was created because no payment method or sufficient balance was available.",
+  "github_repository": "https://github.com/DaInfernalCoder/cobalt-bay-detailing",
+  "vercel_project": "https://vercel.com/dainfernalcoders-projects/cobalt-bay-detailing",
+  "live_site_status": "Vercel production READY at https://cobalt-bay-detailing.vercel.app; custom domain blocked",
+  "missing_items": "Fund Spaceship account; register approved domain; attach apex/www; save DNS; finalize GMB-INFO.txt and asset pack; mirror assets to Drive; confirm GBP owner account, address policy, hours, categories, and profile URL",
+  "notes": "Static preflight, responsive browser QA, and live Vercel HTTPS content check pass. GitHub is connected to Vercel. Approved domain purchase returned HTTP 422 before an async operation was created because no payment method or sufficient balance was available. Image pack is staged but not published because the required custom domain is unregistered.",
   "last_updated": "2026-07-19"
 }

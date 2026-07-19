@@ -50,9 +50,9 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - [x] Source and record licensed imagery.
 - [x] Build the static site.
 - [x] Run preflight and browser QA at desktop and phone widths.
-- [ ] Initialize git and commit `main`.
-- [ ] Create and push the dedicated GitHub repository.
-- [ ] Deploy through Vercel and connect GitHub.
+- [x] Initialize git and commit `main`.
+- [x] Create and push the dedicated GitHub repository.
+- [x] Deploy through Vercel and connect GitHub.
 - [ ] Attach apex and `www`, configure DNS, and verify once.
 - [ ] Build and validate the final GMB asset pack.
 - [ ] Upsert and verify the registry row and Drive mirror.
@@ -61,7 +61,11 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 
 The phone, canonical brand, approved domain, price, and registration settings are locked. Spaceship reported the domain available and non-premium. The first approved registration attempt returned HTTP 422 before creating an async operation because the account had no available payment method or sufficient balance. No registration was created and the request has not been resubmitted.
 
-The dependency-free site is complete with an original Cobalt Bay SVG logo and eight licensed Pexels photographs. Static preflight passes. Real-browser QA passes at 1440×1000, 1024×900, and 390×844 with one H1, no broken images, no console or page errors, no horizontal page overflow, an opaque readable header, a working mobile menu and FAQ, and seven call plus seven booking links. No public form or email link is present.
+The dependency-free site is complete with an original Cobalt Bay SVG logo and licensed stock photography. Static preflight passes. Real-browser QA passes at 1440×1000, 1024×900, and 390×844 with one H1, no broken images, no console or page errors, no horizontal page overflow, an opaque readable header, a working mobile menu and FAQ, and seven call plus seven booking links. No public form or email link is present.
+
+GitHub repository `https://github.com/DaInfernalCoder/cobalt-bay-detailing` is connected to Vercel project `cobalt-bay-detailing` for push deployments. Production deployment `dpl_8i2HCxnGkHgiz3BQsNvZWdAcHYEc` is READY and aliased to `https://cobalt-bay-detailing.vercel.app`; the live HTTPS content check passes.
+
+The future GMB image pack is staged locally with the exact 1200×1200 website logo, four visually checked 1600×900 covers, four visually checked business JPGs, and source/license notes. It has not been promoted to the final GMB folder or Drive because the custom domain is not registered and `GMB-INFO.txt` cannot yet be completed truthfully.
 
 Google Business Profile description (683 characters):
 
@@ -69,7 +73,7 @@ Cobalt Bay Car Detailing Houston helps drivers across Houston, Texas, refresh ve
 
 ## Blocker
 
-Spaceship needs an available payment method or at least $0.90 account balance before `cobaltbaydetailing.shop` can be registered.
+Spaceship needs an available payment method or at least $0.90 account balance before `cobaltbaydetailing.shop` can be registered. Custom-domain attachment, DNS, final GMB pack, Drive mirror, and final registry status depend on that registration.
 
 ## Exact next action
 

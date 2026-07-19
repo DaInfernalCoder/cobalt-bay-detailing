@@ -27,8 +27,15 @@ show Cobalt Bay employees, customers, or completed Cobalt Bay jobs.
 - `blue-studio-car.jpg` — blue vehicle in a detailing studio
   - Auto Records, Pexels
   - https://www.pexels.com/photo/photograph-of-a-blue-car-10549258/
+- `blue-car-wash.jpg` — blue vehicle during an exterior wash
+  - Taras Chernus, Unsplash
+  - https://unsplash.com/photos/a-blue-car-is-being-washed-nCcpEH7Hzys
+- `vintage-blue-wash.jpg` — blue vehicle exterior cleaning
+  - Mehmet Turgut Kirkgoz, Pexels
+  - https://www.pexels.com/photo/a-man-cleaning-a-vintage-car-11879038/
 
 Pexels license: https://www.pexels.com/license/
+Unsplash license: https://unsplash.com/license
 
 Local files may be cropped and compressed for responsive delivery without changing their subjects.
 The Cobalt Bay logo and favicon are original SVG marks created for this website.
