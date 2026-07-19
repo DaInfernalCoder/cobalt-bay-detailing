@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Cobalt Bay logo</title>
+  <desc id="desc">A cobalt C surrounding a reflective bay line</desc>
+  <rect width="120" height="120" rx="18" fill="#edf6fb"/>
+  <path d="M91 33A41 41 0 1 0 91 87" fill="none" stroke="#071a2c" stroke-width="15" stroke-linecap="square"/>
+  <path d="M90 42A29 29 0 1 0 90 78" fill="none" stroke="#1d55f0" stroke-width="9" stroke-linecap="square"/>
+  <path d="M35 60h66" stroke="#6f91ff" stroke-width="4"/>
+  <path d="m88 51 3 6 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#071a2c"/>
+</svg>
