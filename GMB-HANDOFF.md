@@ -14,7 +14,6 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - Approved domain: `cobaltbaydetailing.shop`
 - Approved price: $0.90 for one year ($0.70 registration plus $0.20 ICANN fee)
 - Registration settings: one year, high privacy with consent, `autoRenew: false`
-- Master registry: https://docs.google.com/spreadsheets/d/1q9LHXEOZi0Hs5n8WmPjZeUKZPuPVFyuX/edit
 
 ## Decisions and truth constraints
 
@@ -36,7 +35,7 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - Clean `main` commit in a dedicated GitHub repository connected to Vercel.
 - Apex and `www` are attached; registrar DNS is saved; public propagation is checked once.
 - GMB pack at `/Users/sumit/Documents/gmb/Cobalt Bay Mobile Car Detailing Houston` contains `GMB-INFO.txt`, one logo, four covers, four business photos, and `SOURCES.txt`.
-- Registry row and Drive asset folder are created and verified.
+- Local GMB asset pack is complete and verified.
 
 ## Task list
 
@@ -45,7 +44,7 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - [x] Define and critique the design direction.
 - [x] Retrieve Spaceship credentials and check domain availability/price.
 - [x] Obtain explicit approval for the exact domain and price.
-- [ ] Register the domain with high privacy and auto-renew off.
+- [x] Register the domain with high privacy and auto-renew off.
 - [x] Save this handoff in the permanent project folder.
 - [x] Source and record licensed imagery.
 - [x] Build the static site.
@@ -53,19 +52,20 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - [x] Initialize git and commit `main`.
 - [x] Create and push the dedicated GitHub repository.
 - [x] Deploy through Vercel and connect GitHub.
-- [ ] Attach apex and `www`, configure DNS, and verify once.
-- [ ] Build and validate the final GMB asset pack.
-- [ ] Upsert and verify the registry row and Drive mirror.
+- [x] Attach apex and `www`, configure DNS, and verify once.
+- [x] Build and validate the final GMB asset pack.
 
 ## Current state
 
-The phone, canonical brand, approved domain, price, and registration settings are locked. Spaceship reported the domain available and non-premium. The first approved registration attempt returned HTTP 422 before creating an async operation because the account had no available payment method or sufficient balance. No registration was created and the request has not been resubmitted.
+The phone, canonical brand, domain, and registration settings are locked. After the initial payment-method failure, the approved retry succeeded. Spaceship reports `cobaltbaydetailing.shop` registered from 2026-07-19 through 2027-07-19 with verification successful, high privacy active, and auto-renew off.
 
 The dependency-free site is complete with an original Cobalt Bay SVG logo and licensed stock photography. Static preflight passes. Real-browser QA passes at 1440×1000, 1024×900, and 390×844 with one H1, no broken images, no console or page errors, no horizontal page overflow, an opaque readable header, a working mobile menu and FAQ, and seven call plus seven booking links. No public form or email link is present.
 
 GitHub repository `https://github.com/DaInfernalCoder/cobalt-bay-detailing` is connected to Vercel project `cobalt-bay-detailing` for push deployments. Production deployment `dpl_8i2HCxnGkHgiz3BQsNvZWdAcHYEc` is READY and aliased to `https://cobalt-bay-detailing.vercel.app`; the live HTTPS content check passes.
 
-The future GMB image pack is staged locally with the exact 1200×1200 website logo, four visually checked 1600×900 covers, four visually checked business JPGs, and source/license notes. It has not been promoted to the final GMB folder or Drive because the custom domain is not registered and `GMB-INFO.txt` cannot yet be completed truthfully.
+Vercel has both `cobaltbaydetailing.shop` and `www.cobaltbaydetailing.shop` attached. Spaceship registrar readback confirms custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The single immediate public check still showed temporary registry nameservers and both custom HTTPS hosts unresolved, which is normal while a fresh registration propagates. No further DNS polling was performed.
+
+The final local GMB pack is complete at `/Users/sumit/Documents/gmb/Cobalt Bay Mobile Car Detailing Houston`. It contains the exact 1200×1200 website logo, four visually checked 1600×900 covers, four visually checked business JPGs, `SOURCES.txt`, and `GMB-INFO.txt` with the registered custom domain, confirmed phone, and 683-character description. Counts, formats, dimensions, and text were validated.
 
 Google Business Profile description (683 characters):
 
@@ -73,8 +73,8 @@ Cobalt Bay Car Detailing Houston helps drivers across Houston, Texas, refresh ve
 
 ## Blocker
 
-Spaceship needs an available payment method or at least $0.90 account balance before `cobaltbaydetailing.shop` can be registered. Custom-domain attachment, DNS, final GMB pack, Drive mirror, and final registry status depend on that registration.
+No build blocker. Fresh custom-domain DNS and HTTPS propagation is pending.
 
 ## Exact next action
 
-Fund the Spaceship account, recheck `cobaltbaydetailing.shop`, and submit the approved registration exactly once.
+In a later run, recheck apex and `www` after registrar delegation and Vercel certificate propagation have had time to complete.
