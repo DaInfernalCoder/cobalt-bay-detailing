@@ -9,6 +9,7 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - Canonical name: Cobalt Bay Mobile Car Detailing Houston
 - Business type: mobile car detailing
 - Primary market: Houston, Texas
+- Street address: 17814 Netherby Ln, Richmond, TX 77407
 - Phone: +1 832-924-3725
 - Booking link: https://cal.com/sumitdatta/auto-detail-service
 - Approved domain: `cobaltbaydetailing.shop`
