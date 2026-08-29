@@ -14,3 +14,14 @@
 - Service: Appointment-based mobile car detailing
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Google review profile: https://g.page/r/CcbW2mDk_W5rEBM/review
+
+<!-- SEO-NEXT:START -->
+## Expanded pages
+- [Services](https://cobaltbaydetailing.shop/services/)
+- [Interior Car Detailing](https://cobaltbaydetailing.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://cobaltbaydetailing.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://cobaltbaydetailing.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://cobaltbaydetailing.shop/services/headlight-restoration/)
+- [About](https://cobaltbaydetailing.shop/about/)
+- [Contact](https://cobaltbaydetailing.shop/contact/)
+<!-- SEO-NEXT:END -->
