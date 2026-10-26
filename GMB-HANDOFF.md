@@ -12,7 +12,7 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - Street address: 17814 Netherby Ln, Richmond, TX 77407
 - Phone: +1 832-924-3725
 - Booking link: https://cal.com/sumitdatta/auto-detail-service
-- Approved domain: `cobaltbaydetailing.shop`
+- Approved domain: `richmondcardetailing.shop`
 - Approved price: $0.90 for one year ($0.70 registration plus $0.20 ICANN fee)
 - Registration settings: one year, high privacy with consent, `autoRenew: false`
 
@@ -58,13 +58,13 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 
 ## Current state
 
-The phone, canonical brand, domain, and registration settings are locked. After the initial payment-method failure, the approved retry succeeded. Spaceship reports `cobaltbaydetailing.shop` registered from 2026-07-19 through 2027-07-19 with verification successful, high privacy active, and auto-renew off.
+The phone, canonical brand, domain, and registration settings are locked. After the initial payment-method failure, the approved retry succeeded. Spaceship reports `richmondcardetailing.shop` registered from 2026-07-19 through 2027-07-19 with verification successful, high privacy active, and auto-renew off.
 
 The dependency-free site is complete with an original Cobalt Bay SVG logo and licensed stock photography. Static preflight passes. Real-browser QA passes at 1440×1000, 1024×900, and 390×844 with one H1, no broken images, no console or page errors, no horizontal page overflow, an opaque readable header, a working mobile menu and FAQ, and seven call plus seven booking links. No public form or email link is present.
 
 GitHub repository `https://github.com/DaInfernalCoder/cobalt-bay-detailing` is connected to Vercel project `cobalt-bay-detailing` for push deployments. Production deployment `dpl_8i2HCxnGkHgiz3BQsNvZWdAcHYEc` is READY and aliased to `https://cobalt-bay-detailing.vercel.app`; the live HTTPS content check passes.
 
-Vercel has both `cobaltbaydetailing.shop` and `www.cobaltbaydetailing.shop` attached. Spaceship registrar readback confirms custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The single immediate public check still showed temporary registry nameservers and both custom HTTPS hosts unresolved, which is normal while a fresh registration propagates. No further DNS polling was performed.
+Vercel has both `richmondcardetailing.shop` and `www.richmondcardetailing.shop` attached. Spaceship registrar readback confirms custom nameservers `ns1.vercel-dns.com` and `ns2.vercel-dns.com`. The single immediate public check still showed temporary registry nameservers and both custom HTTPS hosts unresolved, which is normal while a fresh registration propagates. No further DNS polling was performed.
 
 The final local GMB pack is complete at `/Users/sumit/Documents/gmb/Cobalt Bay Mobile Car Detailing Houston`. It contains the exact 1200×1200 website logo, four visually checked 1600×900 covers, four visually checked business JPGs, `SOURCES.txt`, and `GMB-INFO.txt` with the registered custom domain, confirmed phone, and 683-character description. Counts, formats, dimensions, and text were validated.
 

@@ -3,9 +3,9 @@
 > Appointment-based mobile car detailing in Richmond, Texas.
 
 ## Primary pages
-- [Homepage](https://cobaltbaydetailing.shop/): Business, service, pricing, process, and contact information.
-- [Services](https://cobaltbaydetailing.shop/#services): Interior, exterior, and complete vehicle detailing options.
-- [Local service information](https://cobaltbaydetailing.shop/#local-detailing): How mobile detailing works in Richmond.
+- [Homepage](https://richmondcardetailing.shop/): Business, service, pricing, process, and contact information.
+- [Services](https://richmondcardetailing.shop/#services): Interior, exterior, and complete vehicle detailing options.
+- [Local service information](https://richmondcardetailing.shop/#local-detailing): How mobile detailing works in Richmond.
 
 ## Verified business facts
 - Business name: Cobalt Bay Mobile Car Detailing Houston
@@ -17,11 +17,11 @@
 
 <!-- SEO-NEXT:START -->
 ## Expanded pages
-- [Services](https://cobaltbaydetailing.shop/services/)
-- [Interior Car Detailing](https://cobaltbaydetailing.shop/services/interior-car-detailing/)
-- [Exterior Car Detailing](https://cobaltbaydetailing.shop/services/exterior-car-detailing/)
-- [Mobile Car Wash](https://cobaltbaydetailing.shop/services/mobile-car-wash/)
-- [Headlight Restoration & Polishing](https://cobaltbaydetailing.shop/services/headlight-restoration/)
-- [About](https://cobaltbaydetailing.shop/about/)
-- [Contact](https://cobaltbaydetailing.shop/contact/)
+- [Services](https://richmondcardetailing.shop/services/)
+- [Interior Car Detailing](https://richmondcardetailing.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://richmondcardetailing.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://richmondcardetailing.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://richmondcardetailing.shop/services/headlight-restoration/)
+- [About](https://richmondcardetailing.shop/about/)
+- [Contact](https://richmondcardetailing.shop/contact/)
 <!-- SEO-NEXT:END -->

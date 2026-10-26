@@ -6,7 +6,7 @@ Dependency-free brochure website for a mobile car detailing business serving Hou
 
 - Phone: +1 832-924-3725
 - Online booking: https://cal.com/sumitdatta/auto-detail-service
-- Planned domain: https://cobaltbaydetailing.shop
+- Planned domain: https://richmondcardetailing.shop
 
 ## Local preview
 
