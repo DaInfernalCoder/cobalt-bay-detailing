@@ -1,0 +1,81 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.richmondcardetailing.shop",
+      "apexName": "richmondcardetailing.shop",
+      "redirect": "richmondcardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "richmondcardetailing.shop",
+      "apexName": "richmondcardetailing.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "www.cobaltbaydetailing.shop",
+      "apexName": "cobaltbaydetailing.shop",
+      "redirect": "richmondcardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "cobaltbaydetailing.shop",
+      "apexName": "cobaltbaydetailing.shop",
+      "redirect": "richmondcardetailing.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/blue-car-wash.jpg",
+    "/assets/blue-studio-car.jpg",
+    "/assets/clean-interior.jpg",
+    "/assets/detailing-garage.jpg",
+    "/assets/exterior-wash.jpg",
+    "/assets/favicon.svg",
+    "/assets/finish-inspection.jpg",
+    "/assets/hero-blue-water.jpg",
+    "/assets/interior-care.jpg",
+    "/assets/logo.svg",
+    "/assets/polish-tools.jpg",
+    "/assets/vintage-blue-wash.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/portfolio-components.css",
+    "/portfolio-components.js",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/exterior-car-detailing/index.html",
+    "/services/headlight-restoration/index.html",
+    "/services/index.html",
+    "/services/interior-car-detailing/index.html",
+    "/services/mobile-car-wash/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
