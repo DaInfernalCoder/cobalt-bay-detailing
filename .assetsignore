@@ -16,3 +16,4 @@ node_modules
 /scripts/browser_qa.py
 /scripts/preflight_site.py
 /scripts/check_live.py
+.github
