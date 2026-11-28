@@ -11,7 +11,7 @@ Build and launch a polished, call-led mobile car detailing website and Google Bu
 - Primary market: Houston, Texas
 - Street address: 17814 Netherby Ln, Richmond, TX 77407
 - Phone: +1 832-924-3725
-- Booking link: https://cal.com/sumitdatta/auto-detail-service
+- Booking link: https://richmondcardetailing.shop/scheduling
 - Approved domain: `richmondcardetailing.shop`
 - Approved price: $0.90 for one year ($0.70 registration plus $0.20 ICANN fee)
 - Registration settings: one year, high privacy with consent, `autoRenew: false`

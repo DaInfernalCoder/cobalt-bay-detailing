@@ -5,7 +5,7 @@ Dependency-free brochure website for a mobile car detailing business serving Hou
 ## Contact
 
 - Phone: +1 832-924-3725
-- Online booking: https://cal.com/sumitdatta/auto-detail-service
+- Online booking: https://richmondcardetailing.shop/scheduling
 - Planned domain: https://richmondcardetailing.shop
 
 ## Local preview
